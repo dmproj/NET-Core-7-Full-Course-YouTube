@@ -1,3 +1,6 @@
+//ASP.NET Core 7, Lesson 2
+//https://github.com/dmproj/NET-Core-7-Full-Course-YouTube
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 

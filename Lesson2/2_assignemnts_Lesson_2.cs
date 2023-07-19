@@ -1,3 +1,6 @@
+//ASP.NET Core 7, Lesson 2
+//https://github.com/dmproj/NET-Core-7-Full-Course-YouTube
+
 //1. Execute a handler function using MapGet() function.
 app.MapGet("/", () => "Hello World!");
 
