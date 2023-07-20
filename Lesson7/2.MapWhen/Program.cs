@@ -14,7 +14,6 @@ app.MapWhen(context => context.Request.Path == "/api", branch =>
     branch.UseCustomMiddleware1();
     branch.Run(async context =>
     {
-        // Middleware 3
         await context.Response.WriteAsync("Branch Middleware\n");
     });
 });
