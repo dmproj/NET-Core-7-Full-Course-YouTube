@@ -3,7 +3,7 @@ using MyApp.MyAppCustomMiddleware;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.Use(async (context, next) => 
+app.Use(async (context, next) =>
 {
     await context.Response.WriteAsync("Will be executed first\n");
     await next.Invoke();
@@ -35,3 +35,4 @@ app.Run(async context =>
 });
 
 app.Run();
+
