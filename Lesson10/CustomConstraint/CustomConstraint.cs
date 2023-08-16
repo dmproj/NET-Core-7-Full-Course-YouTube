@@ -31,7 +31,7 @@ namespace MyApp.CustomConstraint
                 {
                     writer.Write(json);
                 }
-                return true; // it's a match
+                return true; //  match
             }
             return false; // not a match
         }
